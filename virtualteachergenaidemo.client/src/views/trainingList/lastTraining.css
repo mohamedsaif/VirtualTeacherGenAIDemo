@@ -1,0 +1,49 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+    .list > .card {
+        flex: 1 1 auto;
+        max-width: 300px;
+        min-width: 300px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;        
+    }
+
+.horizontalCardImage {
+    width: 100%;
+    padding:10px;
+}
+
+.htitle {
+    font-size: 20px;
+    /*line-height: var(--lineHeightBase400);*/
+}
+
+.agent-info {
+    margin-top: 10px;
+}
+
+
+.additional-info {
+    font-size: 15px; /* Adjust the font size as needed */
+    line-height: 0.5; /* Adjust the line height as needed */
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .list {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "description": "To improve conversation between customer and sales, give a example of response that beauty advisor could have made",
+  "execution_settings": {
+    "default": {
+      "max_tokens": 3000,
+      "temperature": 0,
+      "top_p": 0.5,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  "input_variables": [
+    {
+      "name": "conversation",
+      "description": "the conversattion to make example",
+      "default": ""
+    },
+    {
+      "name": "userPrompt",
+      "description": "the user give it's own prompt'",
+      "default": ""
+    }
+  ]
+}

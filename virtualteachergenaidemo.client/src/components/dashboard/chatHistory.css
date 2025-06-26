@@ -1,0 +1,49 @@
+.dashboard-user-message {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    align-self: flex-end;
+    max-width: 50%;
+    text-align: right;
+}
+
+.dashboard-assistant-message {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    align-self: flex-start;
+    max-width: 50%;
+    text-align: left;
+}
+
+.dashboard-chat-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-chat-message {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    max-width: 60%;
+}
+
+div.window {
+    max-height: 70vh;
+    overflow-y: auto;
+    min-height: 70vh;
+}
+
+.spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 20px;
+    padding-top: 20px;
+}

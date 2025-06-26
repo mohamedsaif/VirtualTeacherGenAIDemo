@@ -1,0 +1,10 @@
+[OUTPUT FORMAT]
+Return the response in Markdown format for human readable format.(please without '''markdown''' or any other format))
+Use the same language as the conversation.
+
+[CONVERSATION]
+{{$conversation}}
+
+[TASK]
+{{$task}}
+[END]

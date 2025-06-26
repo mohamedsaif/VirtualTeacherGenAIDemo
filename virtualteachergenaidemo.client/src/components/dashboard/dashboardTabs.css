@@ -1,0 +1,29 @@
+
+
+
+
+.tabpanel {
+    max-height: 73vh;
+    overflow-y: auto;
+    margin-bottom: 0px;
+}
+
+h1 {
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+h2 {
+    margin: 20px 0 20px -2px;
+    text-align: left;
+    overflow-wrap: break-word;
+    line-height: 1.1;
+}
+
+
+.bottom-margin {
+    margin-top: 20px;
+}
+
+
+ 

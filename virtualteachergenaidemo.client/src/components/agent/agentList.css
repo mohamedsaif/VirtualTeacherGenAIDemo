@@ -1,0 +1,20 @@
+.tabcontainer{           
+    margin: 50px 0 0 50px;
+}
+
+.agent-cards-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: left;
+    margin-top: 10px;
+    margin-right: 10px;    
+        
+}
+
+    .agent-cards-grid > .card {
+        flex: 1 1 auto;
+        max-width: 300px;
+    }
+
+

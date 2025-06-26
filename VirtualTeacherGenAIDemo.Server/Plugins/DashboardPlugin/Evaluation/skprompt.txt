@@ -1,0 +1,17 @@
+{{$userPrompt}}
+
+[OUTPUT FORMAT]
+Return the response in Markdown format for human readable format.(please without '''markdown''' or any other format))
+Don't stard with --- or === or something like that.
+Start with a Title.
+Use the same language as the conversation.
+
+[CONVERSATION]
+{{$conversation}}
+
+[KNOWLEDGE]
+{{$knowledge}}
+
+[TASK]
+For the conversation above, evaluate the training session with your knowledge section and provide feedback to improve the beauty advisor.
+[END]
